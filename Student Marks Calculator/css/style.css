@@ -1,0 +1,17 @@
+body {
+	background: #777;
+}
+.head-title {
+	margin: 50px 0;
+}
+.std-subject input {
+	margin: 10px 0;
+	border: 1px solid #fff;
+	background: transparent;
+	text-align: center;
+	color: #fff;
+}
+#showData {
+	color: #fff;
+	font-size: 20px;
+}
