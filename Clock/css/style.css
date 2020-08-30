@@ -1,0 +1,54 @@
+.text {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Rowdies';
+	padding-top: 10px;
+	font-size: 35px;	
+	color: #000;
+	letter-spacing: 2pt;
+}
+html { 
+    background: url(../images/round-silver-colored-analog-stopwatch-on-brown-wooden-panel-1078057.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+.container {
+	text-align: center;
+}
+.headline {
+	text-align: center;
+}
+.date h1 {
+	color: #ddd;
+	text-align: center;
+	font-size: 50px;
+}
+.clock-headline {
+    display: inline-block;
+    width: 200px;
+    background: #000;
+	margin: 10px 50px;
+	opacity: 0.9;
+}
+.clock-headline p {
+	color: #ddd;
+	text-align: center;
+	letter-spacing: 2pt;
+	font-weight: bold;
+}
+.clock {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #000;
+	margin: 0 50px;
+	opacity: 0.9;
+}
+.clock h1 {
+	color: #ddd;
+	text-align: center;
+	font-size: 100px;
+}
+.clock span {
+	color: #ddd;
+	font-size: 20px;
+}
