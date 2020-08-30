@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="js/script.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@600&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/calculator.png">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="headline">
+			<h1>Basic Calculator</h1>
+		</div>
+		<div class="frame">			
+			<div class="top">
+				<p>Calculator</p>
+				<button onclick="closeMe()"><i class="fa fa-close"></i></button>
+			</div>		
+				
+			<div class="text">
+				<input id="result" type="text">
+			</div>
+			
+			<div class="keyboard">
+				<button onclick="clr()">C</button>
+				<button onclick="clr()">+/-</button>
+				<button onclick="clickMe('%')">%</button>
+				<button onclick="del()">DEL</button>
+				<button onclick="clickMe('7')">7</button>
+				<button onclick="clickMe('8')">8</button>
+				<button onclick="clickMe('9')">9</button>
+				<button onclick="clickMe('/')">/</button>
+				<button onclick="clickMe('4')">4</button>
+				<button onclick="clickMe('5')">5</button>
+				<button onclick="clickMe('6')">6</button>		
+				<button onclick="clickMe('*')">*</button>		
+				<button onclick="clickMe('1')">1</button>		
+				<button onclick="clickMe('2')">2</button>		
+				<button onclick="clickMe('3')">3</button>		
+				<button onclick="clickMe('-')">-</button>		
+				<button onclick="clickMe('0')">0</button>		
+				<button onclick="clickMe('.')">.</button>		
+				<button onclick="eql()">=</button>				
+				<button onclick="result.value += '+'">+</button>				
+			</div>
+			
+		</div>
+	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>

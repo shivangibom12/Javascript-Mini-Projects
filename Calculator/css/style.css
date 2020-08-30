@@ -1,0 +1,91 @@
+body {
+	font-family: 'Rowdies';
+}
+html { 
+    background: url(../images/pexels-pixabay-53621.jpg) no-repeat center center fixed; 
+    background-size: cover;
+/*	opacity: 0.6;*/
+/*
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+*/
+}
+.headline {
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+}
+.container {
+/*	margin-top: 70px;*/
+}
+.frame {
+	margin-left: auto;
+    margin-right: auto;
+	width: 330px;
+	height: 522px;
+	background: #28334AFF;
+	border-radius: 5px;
+}
+.top {	
+	width: 330px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+.top p {
+	display: inline;	
+	margin-top: 5px;
+	margin: 10px;
+	float: left;
+	font-size: 22px;
+}
+.top button {
+	float: right;
+	font-size: 33px;
+	border: none;
+	background: #000;
+	color: #fff;
+	border-top-right-radius: 5px;
+}
+.top button:hover {
+	color: red;
+}
+.text input {
+	width: 300px;
+	height: 130px;
+	background: #fff;
+	margin: 0 auto;		
+	color: red;
+	margin-left: 10px;
+	font-size: 25px;
+	text-align: end;
+}
+.keyboard {
+	width: 330px;
+	margin: 10px;
+}
+.keyboard button {
+	width: 70px;
+	height: 60px;
+	margin: 2px;
+	font-size: 25px;
+	font-weight: 600;
+	background: #ddd;
+	border: none;
+}
+.keyboard button:hover {
+	background: #000;
+	color: #fff;
+	opacity: 0.9;
+}
+.keyboard button:active {
+	background: #000;
+	color: #fff;
+}
+.keyboard button:focus {
+	background: #000;
+	color: #fff;
+}
